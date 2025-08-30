@@ -4,7 +4,7 @@
   "description": "Aneesh's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint --max-warnings=0"
