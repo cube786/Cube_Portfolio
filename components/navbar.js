@@ -72,7 +72,7 @@ const Navbar = props => {
           </Heading>
         </Flex>
 
-        {/* Desktop nav */}
+        
         <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
@@ -85,19 +85,18 @@ const Navbar = props => {
             Works
           </LinkItem>
 
-          {/* Wallpapers removed as requested */}
+        
 
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
 
-          Optional: uncomment if you create a /stack page
           <LinkItem href="/stack" path={path}>
             Stack
           </LinkItem>
          
 
-          {/* Contact CTA (solid teal button) */}
+          
           <Link as={NextLink} href="/contact" passHref>
             <Button
               ml={2}
@@ -110,7 +109,7 @@ const Navbar = props => {
             </Button>
           </Link>
 
-          {/* Optional Source / Resume link (toggle as you wish) */}
+         
           <LinkItem
             target="_blank"
             href="https://drive.google.com/file/d/1KSFtNuXJboE0noa4ISyJVhkgNK7bd7cd/view?usp=sharing"
@@ -129,7 +128,7 @@ const Navbar = props => {
         <Box flex={1} align="right">
           <ThemeToggleButton />
 
-          {/* Mobile menu */}
+          
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
@@ -145,11 +144,11 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                {/* Wallpapers removed from mobile menu too */}
+             
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                Optional stack entry:
+                
                 <MenuItem as={MenuLink} href="/stack">
                   Stack
                 </MenuItem>
@@ -158,13 +157,8 @@ const Navbar = props => {
                   Contact
                 </MenuItem>
 
-                Optional: show Resume or Source
-                <MenuItem as={MenuLink} href="/aneesh-resume.pdf">
-                  Resume (PDF)
-                </MenuItem>
-                <MenuItem as={Link} href="https://github.com/yourname/your-portfolio" isExternal>
-                  View Source
-                </MenuItem>
+               
+               
                
               </MenuList>
             </Menu>

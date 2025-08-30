@@ -130,9 +130,7 @@ const Home = () => (
             Speed Cubing
           </Link>
           ,{' '}
-          {/* <Link href="https://500px.com/p/craftzdog" target="_blank">
-            
-          </Link> */}
+          
           Photography
 
         </Paragraph>
@@ -165,17 +163,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem> */}
+          
           <ListItem>
             <Link href="https://www.instagram.com/c.u.b.e_r?igsh=NzZxNGpqMTJiZnVi" target="_blank">
               <Button
