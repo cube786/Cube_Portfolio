@@ -17,15 +17,16 @@ export const DogContainer = forwardRef(({ children }, ref) => (
     ref={ref}
     className="voxel-dog"
     m="auto"
-    pt={['40px', '60px', '80px']}   // 👈 push cube down
-    mb={['-40px', '-100px', '-160px']} // 👈 adjust bottom spacing
+    pt={['60px', '80px', '100px']}   // more top padding
+    mb={['-60px', '-120px', '-180px']} // adjust bottom space
     w={[320, 520, 720]}
-    h={[420, 620, 820]}
+    h={[520, 720, 920]}   // 👈 increased height
     position="relative"
   >
     {children}
   </Box>
 ))
+
 
 
 const Loader = () => {
