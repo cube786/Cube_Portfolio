@@ -17,6 +17,8 @@
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
     "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.4",
     "next": "^13.5.6",
